@@ -1,4 +1,4 @@
-## Provably Fair Scheme
+## isitprovablyfair.org
 
 IsItProvablyFair is a fully open source website that aims to allow users to independently and quickly verify that the game they just played was provably fair.
 
