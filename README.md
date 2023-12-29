@@ -4,8 +4,6 @@ IsItProvablyFair is a fully open source website that aims to allow users to inde
 
 It does this by going through millions of hashes in only a matter of seconds to obtain the terminating hash. Then, it checks to see if the hash result matches with the terminating hash that was generated in the 2018 [seeding event](https://bitcointalk.org/index.php?topic=2807542.0). It also returns the game bust, so players can verify if that matches too.
 
-No more "rigged" allegations!
-
 
 ## How are we verifying the terminating hash and calculating the game bust ?
 
