@@ -11,7 +11,7 @@ No more "rigged" allegations!
 
 ### NodeJs Code
 
-= To verify if the hash entered matches with the terminating hash, we use the following NodeJs code
+- To verify if the hash entered matches with the terminating hash, we use the following NodeJs code
 
 ``` 
 const express = require('express');
