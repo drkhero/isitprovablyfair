@@ -39,7 +39,7 @@ const express = require('express');
 
 - Game Bust
 
-To calculate the game bust, we use the following NodeJs code that uses the salted hash of Bitcoin block #505750 :
+To calculate the game bust, we use the following NodeJs code that uses the salted hash of Bitcoin block #505750:
 
 ``` const gameResult = (seed, salt) => {
     const nBits = 52; 
