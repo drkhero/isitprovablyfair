@@ -9,9 +9,9 @@ No more "rigged" allegations!
 
 ## How are we verifying the terminating hash and calculating the game bust ?
 
-- NodeJs Code
+### NodeJs Code
 
-To verify if the hash entered matches with the terminating hash, we use the following NodeJs code
+= To verify if the hash entered matches with the terminating hash, we use the following NodeJs code
 
 ``` 
 const express = require('express');
@@ -37,9 +37,9 @@ const express = require('express');
     
  ```
 
-- Game Bust
+### Game Bust
 
-To calculate the game bust, we use the following NodeJs code that uses the salted hash of Bitcoin block 505750
+- To calculate the game bust, we use the following NodeJs code that uses the salted hash of Bitcoin block 505750
 
 ``` const gameResult = (seed, salt) => {
     const nBits = 52; 
