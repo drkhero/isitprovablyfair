@@ -1,0 +1,477 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  
+  }
+
+  @media screen and (min-width: 380px)  {
+
+    :root {
+      font-size: 11px;
+    }
+
+    .welcome {
+  
+
+
+      font-size: 12px;
+      position: absolute;
+     
+    
+    
+    }
+  
+  
+
+  }
+
+
+  @media screen and (max-width: 375px)  {
+
+    :root {
+      font-size: 8px;
+  
+    }
+
+    .welcome {
+  
+
+
+      font-size: 8px;
+      position: absolute;
+     
+      
+  
+    
+    
+    }
+  
+
+  }
+
+
+
+p {
+    margin-top: 0.8rem;
+
+    margin-bottom: 0.8rem;
+}
+
+    .parent-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12rem;
+
+        /* Add any other styling you need for the parent container */
+
+
+      }
+      
+
+      .main {
+        /* position: relative; */ /* Optional, can be removed if not needed */
+        display: flex;
+        flex-direction: column;
+        hyphens: auto;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: rgba(255, 255, 255, 0.742);
+        word-wrap: break-word;
+    
+  
+     
+        width: 90vw;
+        
+
+      }
+
+  p {
+    font-size: 1rem;
+    font-family: monospace;
+
+  }
+  
+  #question {
+    color: rgb(255, 93, 93);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin-bottom: 2.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  
+
+  
+
+ 
+ 
+  
+  html, body {
+    font-family: "Raleway", sans-serif;
+    padding: 3em 2em;
+    font-size: 18px;
+    background: #222;
+    color: #aaa;
+  }
+  
+  h1, h2 {
+    font-weight: 200;
+    margin: 0.4em 0;
+  }
+  
+  h1 {
+    font-size: 3.5em;
+    margin-left: 1rem;
+    width: 35rem;
+
+
+  }
+  
+  h2 {
+    color: #888;
+    font-size: 2em;
+  }/*# sourceMappingURL=style.css.map */
+  
+  
+  #result {
+    padding: 1rem;
+    width: 40rem;
+    margin-top: 1rem;
+    background-color: rgba(13, 9, 9, 0.122);
+    color: rgba(255, 255, 255, 0.712);
+    border-radius: 0.4rem;
+    hyphens: auto;
+  
+  
+  
+   
+  
+  
+  }  
+
+  
+  
+
+  
+  .letmedoit {
+    position: absolute;
+    top: 18rem;
+  }
+  
+    .green {
+      color: rgb(82, 226, 74);
+  
+     
+    }
+  
+    .wrapped {
+     
+      font-size: 0.76rem;
+      font-family: Lato,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+      font-weight: 100;
+      color: #e58929;
+      font-weight: normal;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+  
+  
+  
+    }
+  
+    .pre {
+      display: block;
+      padding: 9.5px;
+      margin: 0 0 10px;
+      
+    
+      line-height: 1.428571429;
+      color: #333;
+      word-break: break-all;
+      word-wrap: break-word;
+      background-color: #3a3a3a;
+  
+      border-radius: 4px;
+      position: absolute;
+      bottom: 1rem;
+      left: 3rem;
+      box-sizing: border-box;
+    }
+    
+  
+    #bablogo {
+      width: 2rem;
+      position: absolute;
+      bottom: 1.5rem;
+      left: .42rem;
+    }
+  
+  
+    #center {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+  
+  
+    .fair {
+      background-color: rgba(2, 2, 2, 0.361);
+      width: 100%;
+      position: absolute;
+      top: 0;
+      padding-top: 1.8rem;
+      padding-bottom: 1.8rem;
+    
+  
+      color: rgba(255, 255, 255, 0.872);
+    }
+  
+    .fair:hover {
+      cursor: pointer;
+    }
+  
+    .fair > a {
+      position: absolute;
+      right: 2.8rem;
+      top: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 3.5px;
+      text-decoration: none;
+      color: rgb(255, 255, 255);
+      font-size: .9rem;
+   
+  
+    }
+  
+  
+    #isitfair {
+      width: 2.5rem;
+      position: absolute;
+      top: 1.5rem;
+      right: 16.3rem;
+    }
+  
+    #isitfairtext {
+      font-family: Courier New,sans-serif;
+      font-weight: bolder;
+      position: absolute;
+      right: 1.2rem;
+      top: 2rem;
+      font-size: 1.5rem;
+      color: rgb(237, 186, 67);
+      text-decoration: none;
+      transition: 0.2s;
+    }
+  
+
+
+  
+  
+  
+
+    .red {
+
+        color: rgb(255, 60, 60);
+    }
+
+    #github {
+        text-decoration: none;
+        color: rgb(91, 211, 255);
+    }
+
+    #bitcointalk {
+        text-decoration: none;
+        color: rgb(91, 211, 255);
+    }
+
+    #github:hover , #bitcointalk:hover {
+
+        border-bottom: 1px solid rgb(91, 211, 255);
+    }
+
+    #isitfairtext:hover {
+        opacity: 0.5;
+        transition: 0.2s;
+    }
+
+
+    .code {
+      
+    width: 85vw;
+
+    color: #bfffbed3;
+
+    background-color: #04040447;
+    padding-left: 2.5rem;
+
+
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+    overflow: auto; /* Add this to handle overflow */
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace; /* Optional: Better font for code */
+    white-space: pre-wrap; /* Optional: Ensures that the code respects white spaces */
+    margin-bottom: 4rem;
+    font-size: 1rem;
+}
+
+.morecode {
+    align-self: center;
+    color: rgb(255, 223, 106);
+}
+
+
+
+
+
+#turnoff {
+    display: none;
+}
+
+
+
+
+
+
+
+
+#menuToggle {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 0px;
+  margin-left: 3rem;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+  #menuToggle input
+  {
+    display: flex;
+
+    height: 32px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+  }
+  
+  #menuToggle span
+  {
+    display: flex;
+    width: 29px;
+    height: 2px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #ffffff;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 5px 0px;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+  }
+  
+  #menuToggle span:first-child
+  {
+    transform-origin: 0% 0%;
+  }
+  
+  #menuToggle span:nth-last-child(2)
+  {
+    transform-origin: 0% 100%;
+  }
+  
+  #menuToggle input:checked ~ span
+  {
+    opacity: 1;
+    transform: rotate(45deg) translate(-3px, -1px);
+    background: #36383F;
+  }
+  #menuToggle input:checked ~ span:nth-last-child(3)
+  {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+  
+  #menuToggle input:checked ~ span:nth-last-child(2)
+  {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+  
+  #menu
+  {
+    position: absolute;
+
+    width: 180px;
+    height: 100vh;
+    box-shadow: 0 0 10px #85888C;
+    margin: -50px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    background-color: #F5F6FA;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+  
+  #menu li
+  {
+    padding: 10px 0;
+    transition-delay: 2s;
+  }
+  
+  #menuToggle input:checked ~ ul
+  {
+    transform: none;
+  }
+
+  #menuitem1, #menuitem2, li {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  left: 2rem;
+  font-size: 2rem;
+  border-bottom: solid 1px black;
+
+    text-transform: uppercase;
+    
+  }
+
+
+  #menuitem1, #menuitem2 {
+
+
+  }
+
+
+  #menuitem2  {
+    width: 14rem;
+    text-align: start;
+    margin-top: 8rem;
+    font-size: 2rem;
+
+
+
+  }
+
+
+
+
+
+
+  .main2 {
+    margin-top: 2rem;
+  }
+
+
+
+  
