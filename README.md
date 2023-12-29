@@ -91,4 +91,4 @@ Simply input the game hash, and the game ID and click submit. It will then take 
 
 ## How to run locally
 
-All the code for the site is open source and included in this github repo. To run the site locally, simply download all files, run `npm install crypto cors express`. Then run `node api.js` and you're good to go. All you have to to do then is input the hash & game ID information on the front-end `index.html` file
+All the code for the site is open source and included in this github repo. To run the site locally, simply download all files, run `npm install crypto cors express`. Then run `node api.js` and you're good to go. All you have to do then is input the hash & game ID information on the front-end `index.html` file.
